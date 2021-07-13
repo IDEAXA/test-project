@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66803ef-f8e8-4a7f-a832-1ee7959b1962" name="Default Changelist" comment="&#10;updates">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626205823028</updated>
-      <workItem from="1626205824209" duration="5575000" />
+      <workItem from="1626205824209" duration="5614000" />
     </task>
     <task id="LOCAL-00001" summary="CI-CD pipeline created">
       <created>1626206000712</created>
@@ -202,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626211140834</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="&#10;updates">
+      <created>1626211443981</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1626211443981</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
