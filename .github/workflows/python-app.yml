@@ -28,13 +28,13 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Push to Docker Hub
-      uses: docker/build-push-action@v1 # Info: https://github.com/docker/build-push-action/tree/releases/v1#tags
-      with:
-        username: "sachinrana2k11"
-        password: "sachinrana12"
-        repository: "test2k11"
-        tag_with_ref: true # Info: https://github.com/docker/build-push-action/tree/releases/v1#tag_with_ref
-        tag_with_sha: true # Info: https://github.com/docker/build-push-action/tree/releases/v1#tag_with_sha
-        tags: latest
+#    : docker/build-push-action@v1 # Info: https://github.com/docker/build-push-action/tree/releases/v1#tags
+#      with- name: Push to Docker Hub
+#      uses:
+#        username: "sachinrana2k11"
+#        password: "sachinrana12"
+#        repository: "test2k11"
+#        tag_with_ref: true # Info: https://github.com/docker/build-push-action/tree/releases/v1#tag_with_ref
+#        tag_with_sha: true # Info: https://github.com/docker/build-push-action/tree/releases/v1#tag_with_sha
+#        tags: latest
 
