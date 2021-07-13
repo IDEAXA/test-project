@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="61">
+          <list size="69">
             <item index="0" class="java.lang.String" itemvalue="absl-py" />
             <item index="1" class="java.lang.String" itemvalue="google-pasta" />
             <item index="2" class="java.lang.String" itemvalue="protobuf" />
@@ -66,6 +66,14 @@
             <item index="58" class="java.lang.String" itemvalue="Flask-RESTful" />
             <item index="59" class="java.lang.String" itemvalue="google-auth" />
             <item index="60" class="java.lang.String" itemvalue="Pillow" />
+            <item index="61" class="java.lang.String" itemvalue="pytest" />
+            <item index="62" class="java.lang.String" itemvalue="colorama" />
+            <item index="63" class="java.lang.String" itemvalue="iniconfig" />
+            <item index="64" class="java.lang.String" itemvalue="atomicwrites" />
+            <item index="65" class="java.lang.String" itemvalue="pluggy" />
+            <item index="66" class="java.lang.String" itemvalue="py" />
+            <item index="67" class="java.lang.String" itemvalue="packaging" />
+            <item index="68" class="java.lang.String" itemvalue="attrs" />
           </list>
         </value>
       </option>
