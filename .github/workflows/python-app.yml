@@ -28,10 +28,13 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-    - name: Add remote origin
-      run: |
-        git remote add heroku https://heroku:${{ secrets.HEROKU_API_KEY }}@git.heroku.com/${{ secrets.HEROKU_APP_NAME }}.git
-        - name: Deploy to Heroku
-          run: |
-            git push heroku HEAD:master -f
+    - name: Push to Docker Hub
+        uses: docker/build-push-action@v1 # Info: https://github.com/docker/build-push-action/tree/releases/v1#tags
+        with:
+          username: "sachinrana2k11"
+          password: "sachinrana12"
+          repository: "sachinrana2k11"
+          tag_with_ref: true # Info: https://github.com/docker/build-push-action/tree/releases/v1#tag_with_ref
+          tag_with_sha: true # Info: https://github.com/docker/build-push-action/tree/releases/v1#tag_with_sha
+          tags: latest
 
